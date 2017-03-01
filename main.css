@@ -1,0 +1,38 @@
+nav {
+  background-color: lightgreen;
+  overflow: hidden;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 5px;
+  padding: 10px;
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+nav a:active,
+    a:focus,
+    a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.about p {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 0;
+}
