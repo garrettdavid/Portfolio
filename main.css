@@ -11,7 +11,6 @@ nav li {
   display: inline;
 }
 
-.button,
 nav a {
   text-decoration: none;
   margin: 0 5px;
@@ -39,12 +38,11 @@ h2 {
 }
 
 .button {
-  text-decoration: none;
-  margin: 0 5px;
+  background-color: lightblue;
+  border: 2px solid black;
 }
 
-.fa {
-  margin-right: 5px;
-  border: solid 1px;
-  background-color: lightgray;
+.screenshot {
+  max-width: 50%;
+  max-height: 50%;
 }
